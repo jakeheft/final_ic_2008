@@ -137,6 +137,7 @@ There are **4** possible points in Iteration 3:
 3. CookBook #highest_calorie_meal
 4. Pantry #enough_ingredients_for
 ```
+The `total_calories` method should sum the calories of each ingredient. The calories for each ingredient can be calculated by multiplying the `calories` attribute of the Ingredient by the amount of the ingredient required for the recipe.
 
 Use TDD to update your `Recipe`, `CookBook` and `Pantry` classes so that they respond to the following interaction pattern:
 
